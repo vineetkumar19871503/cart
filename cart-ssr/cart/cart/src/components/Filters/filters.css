@@ -1,0 +1,40 @@
+.filters-list {
+  vertical-align: top;
+  width: 100%;
+  display: none;
+  text-align: center;
+  padding: 0; }
+
+.filters-list ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.filters-list ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #999;
+  padding: 10px 5px;
+  display: block;
+  transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s; }
+
+.filters-list ul li a:hover {
+  background-color: #f29c32;
+  color: #FFF; }
+
+@media only screen and (min-width: 768px) {
+  .filters-list {
+    width: 20%;
+    text-align: left;
+    display: inline-block; } }
+@media only screen and (min-width: 992px) {
+  .filters-list {
+    width: 20%; } }
+@media only screen and (min-width: 1200px) {
+  .filters-list {
+    width: 15%; } }
+
+/*# sourceMappingURL=filters.css.map */
